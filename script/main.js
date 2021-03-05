@@ -2,7 +2,7 @@
 var root = $("#root");
 
 //we need to handle every click on the data
-$(root).click( (e) => {
+$(root).click( (e) => { 
     console.log(e.target);
     //TODO: handle the click event to add rows dynamically
 });
